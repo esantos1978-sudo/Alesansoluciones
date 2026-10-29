@@ -1,0 +1,1050 @@
+<!doctype html>
+<html lang="es" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Alesan Soluciones — Tu factura de luz, optimizada</title>
+    <meta
+      name="description"
+      content="Asesoría energética independiente en Madrid. Comparamos más de 30 tarifas, gestionamos tu cambio en 7 días y no te cuesta nada. Habla con Javier, no con un call center."
+    />
+    <meta name="theme-color" content="#111111" />
+    <meta name="author" content="Alesan Soluciones" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / social preview -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:site_name" content="Alesan Soluciones" />
+    <meta
+      property="og:title"
+      content="Alesan Soluciones — Tu factura de luz, optimizada"
+    />
+    <meta
+      property="og:description"
+      content="Asesoría energética independiente en Madrid. +30 tarifas comparadas. Cambio en 7 días. 0 € para ti."
+    />
+    <meta property="og:image" content="./assets/og-image.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Alesan Soluciones: factura de luz optimizada con un ahorro del 42%."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="./assets/og-image.jpg" />
+    <meta
+      name="twitter:image:alt"
+      content="Alesan Soluciones: factura de luz optimizada con un ahorro del 42%."
+    />
+
+    <!-- Self-hosted variable fonts (no third-party requests) -->
+    <link
+      rel="preload"
+      href="./assets/fonts/space-grotesk-latin-var.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./assets/fonts/inter-latin-var.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./assets/styles.css" />
+
+    <!-- Enables progressive-enhancement styles only when JavaScript is available. -->
+    <script>
+      document.documentElement.classList.add('js');
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Alesan Soluciones",
+        "description": "Asesoría energética independiente en Madrid. Comparativa de tarifas eléctricas, análisis de facturas y gestión del cambio de comercializadora.",
+        "telephone": "+34610991989",
+        "areaServed": {
+          "@type": "City",
+          "name": "Madrid"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "Madrid",
+          "addressCountry": "ES"
+        },
+        "priceRange": "Gratuito para el cliente"
+      }
+    </script>
+  </head>
+
+  <body class="bg-ink text-paper">
+    <!-- Accessibility: skip link -->
+    <a
+      href="#contenido"
+      class="fixed left-4 top-4 z-[100] -translate-y-24 rounded-[8px] bg-lime px-5 py-3 text-sm font-semibold text-ink transition focus:translate-y-0"
+    >
+      Saltar al contenido
+    </a>
+
+    <!-- Icon sprite: one source of truth for every inline icon -->
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="pointer-events-none absolute h-0 w-0 overflow-hidden"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <symbol id="i-bolt" viewBox="0 0 24 24">
+        <path d="M13.1 2 4.7 13.2h6.1L10.9 22l8.4-11.2h-6.1L13.1 2Z" fill="currentColor" />
+      </symbol>
+      <symbol id="i-arrow-up-right" viewBox="0 0 24 24">
+        <path d="M7 17 17 7M8 7h9v9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </symbol>
+      <symbol id="i-arrow-right" viewBox="0 0 24 24">
+        <path d="M5 12h14m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </symbol>
+      <symbol id="i-arrow-down" viewBox="0 0 24 24">
+        <path d="M12 5v14m-6-6 6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </symbol>
+      <symbol id="i-whatsapp" viewBox="0 0 24 24">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.885-9.885 9.885m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z" fill="currentColor" />
+      </symbol>
+      <symbol id="i-upload" viewBox="0 0 24 24">
+        <path d="M12 16V4m0 0L7.5 8.5M12 4l4.5 4.5M5 16v2a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-2" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </symbol>
+      <symbol id="i-scan" viewBox="0 0 24 24">
+        <path d="M3 7V5a2 2 0 0 1 2-2h2M17 3h2a2 2 0 0 1 2 2v2M21 17v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2M7 12h10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </symbol>
+      <symbol id="i-file-check" viewBox="0 0 24 24">
+        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6ZM14 2v6h6M9 15l2 2 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </symbol>
+      <symbol id="i-refresh" viewBox="0 0 24 24">
+        <path d="M21 12a9 9 0 0 0-15-6.7L3 8M3 3v5h5M3 12a9 9 0 0 0 15 6.7L21 16M21 21v-5h-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24">
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="m9 12 2 2 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5" />
+        <path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </symbol>
+      <symbol id="i-user" viewBox="0 0 24 24">
+        <circle cx="12" cy="8" r="4" fill="none" stroke="currentColor" stroke-width="1.5" />
+        <path d="M4 21a8 8 0 0 1 16 0" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+      </symbol>
+      <symbol id="i-check" viewBox="0 0 24 24">
+        <path d="m5 12 4 4L19 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </symbol>
+      <symbol id="i-chart" viewBox="0 0 24 24">
+        <path d="M4 19V5M4 19h16M8 15l3-4 3 2 4-6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24">
+        <path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+      </symbol>
+      <symbol id="i-close" viewBox="0 0 24 24">
+        <path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+      </symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.08 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.69 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.33 1.85.56 2.81.69A2 2 0 0 1 22 16.92Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </symbol>
+    </svg>
+
+    <div class="noise-overlay" aria-hidden="true"></div>
+
+    <!-- =====================================================================
+         HEADER / NAVEGACIÓN
+         ===================================================================== -->
+    <header id="site-header" class="site-header fixed inset-x-0 top-0 z-50">
+      <div class="container-wide flex h-[72px] items-center justify-between lg:h-[84px]">
+        <a href="#inicio" class="group flex min-h-11 items-center gap-3" aria-label="Alesan Soluciones, volver al inicio">
+          <span class="grid h-8 w-8 place-items-center rounded-[4px] bg-lime text-ink transition-transform duration-300 ease-smooth group-hover:-rotate-6">
+            <svg class="h-[18px] w-[18px]" aria-hidden="true"><use href="#i-bolt"></use></svg>
+          </span>
+          <span class="flex flex-col leading-none">
+            <span class="font-display text-[18px] font-semibold tracking-[-0.045em] text-paper">
+              ALESAN<span class="text-lime">.</span>
+            </span>
+            <span class="mt-1.5 text-[7px] font-semibold uppercase tracking-[0.26em] text-paper/50">
+              Soluciones energéticas
+            </span>
+          </span>
+        </a>
+
+        <nav class="hidden items-center gap-7 lg:flex" aria-label="Navegación principal">
+          <a class="nav-link" href="#confianza"><span class="nav-index">01</span>Confianza</a>
+          <a class="nav-link" href="#caso"><span class="nav-index">02</span>Caso real</a>
+          <a class="nav-link" href="#proceso"><span class="nav-index">03</span>Cómo funciona</a>
+        </nav>
+
+        <div class="hidden items-center gap-6 lg:flex">
+          <span class="hidden items-center gap-2 text-[9px] font-semibold uppercase tracking-[0.18em] text-paper/50 xl:flex">
+            <span class="h-1.5 w-1.5 rounded-full bg-lime"></span>
+            Madrid / ES
+          </span>
+          <a
+            href="https://wa.me/34610991989?text=Hola%20Javier%2C%20quiero%20analizar%20mi%20factura%20con%20Alesan."
+            target="_blank"
+            rel="noopener noreferrer"
+            class="group inline-flex items-center gap-3 rounded-[8px] border border-white/20 px-4 py-2.5 text-[11px] font-semibold text-paper transition duration-300 hover:border-lime hover:bg-lime hover:text-ink"
+          >
+            <span class="h-1.5 w-1.5 rounded-full bg-lime transition-colors group-hover:bg-ink"></span>
+            Hablemos
+            <svg class="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden="true"><use href="#i-arrow-up-right"></use></svg>
+          </a>
+        </div>
+
+        <button
+          type="button"
+          class="grid h-11 w-11 place-items-center rounded-[8px] border border-white/20 text-paper transition hover:border-white/40 lg:hidden"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          aria-label="Abrir menú de navegación"
+          data-menu-toggle
+        >
+          <svg class="h-5 w-5" aria-hidden="true" data-menu-icon-open><use href="#i-menu"></use></svg>
+          <svg class="hidden h-5 w-5" aria-hidden="true" data-menu-icon-close><use href="#i-close"></use></svg>
+        </button>
+      </div>
+
+      <!-- Menú móvil -->
+      <div id="mobile-menu" class="absolute inset-x-0 top-full max-h-[calc(100dvh-72px)] overflow-y-auto border-b border-white/10 bg-ink lg:hidden" hidden>
+        <div class="container-wide flex min-h-[calc(100dvh-72px)] flex-col py-7">
+          <nav class="flex flex-col" aria-label="Navegación móvil">
+            <a href="#confianza" class="flex items-center justify-between border-b border-white/10 py-4">
+              <span class="flex items-baseline gap-4 font-display text-[2rem] font-medium tracking-[-0.05em]">
+                <span class="text-[9px] tracking-normal text-paper/45">01</span>
+                Confianza
+              </span>
+              <svg class="h-4 w-4 text-paper/50" aria-hidden="true"><use href="#i-arrow-up-right"></use></svg>
+            </a>
+            <a href="#caso" class="flex items-center justify-between border-b border-white/10 py-4">
+              <span class="flex items-baseline gap-4 font-display text-[2rem] font-medium tracking-[-0.05em]">
+                <span class="text-[9px] tracking-normal text-paper/45">02</span>
+                Caso real
+              </span>
+              <svg class="h-4 w-4 text-paper/50" aria-hidden="true"><use href="#i-arrow-up-right"></use></svg>
+            </a>
+            <a href="#proceso" class="flex items-center justify-between border-b border-white/10 py-4">
+              <span class="flex items-baseline gap-4 font-display text-[2rem] font-medium tracking-[-0.05em]">
+                <span class="text-[9px] tracking-normal text-paper/45">03</span>
+                Cómo funciona
+              </span>
+              <svg class="h-4 w-4 text-paper/50" aria-hidden="true"><use href="#i-arrow-up-right"></use></svg>
+            </a>
+          </nav>
+
+          <div class="mt-7 grid gap-3">
+            <a
+              href="https://wa.me/34610991989?text=Hola%20Javier%2C%20quiero%20analizar%20mi%20factura%20con%20Alesan."
+              target="_blank"
+              rel="noopener noreferrer"
+              class="action action-lime w-full"
+            >
+              WhatsApp directo
+              <svg class="h-4 w-4" aria-hidden="true"><use href="#i-whatsapp"></use></svg>
+            </a>
+            <a href="tel:+34610991989" class="action action-ghost w-full">
+              610 99 19 89
+              <svg class="h-4 w-4" aria-hidden="true"><use href="#i-phone"></use></svg>
+            </a>
+          </div>
+
+          <p class="mt-auto flex items-center gap-2 pt-8 text-[9px] font-semibold uppercase tracking-[0.2em] text-paper/50">
+            <span class="h-1.5 w-1.5 rounded-full bg-lime"></span>
+            Madrid / ES · Respuesta en &lt;24 h
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <main id="contenido">
+      <!-- ===================================================================
+           01 · HERO
+           =================================================================== -->
+      <section id="inicio" class="hero-grid relative isolate overflow-hidden border-b border-white/10 bg-ink">
+        <div class="hero-glow pointer-events-none absolute -right-24 top-4 h-[560px] w-[560px] rounded-full opacity-80 sm:h-[700px] sm:w-[700px] lg:right-0 lg:top-[-80px]" aria-hidden="true"></div>
+        <div class="pointer-events-none absolute right-[8%] top-[22%] hidden h-24 w-24 rounded-full border border-white/10 xl:block" aria-hidden="true"></div>
+
+        <div class="container-wide relative z-10 pb-14 pt-[116px] sm:pb-16 sm:pt-[138px] lg:pb-20 lg:pt-[164px]">
+          <div class="grid items-center gap-14 lg:grid-cols-12 lg:gap-6 xl:gap-10">
+            <!-- Columna editorial -->
+            <div class="lg:col-span-7 xl:col-span-7">
+              <div class="reveal flex flex-col gap-2 text-paper/55 sm:flex-row sm:items-center sm:gap-x-4">
+                <span class="eyebrow">Asesoría energética independiente</span>
+                <span class="flex items-center gap-2 sm:gap-4">
+                  <span class="hidden h-px w-7 bg-lime sm:block" aria-hidden="true"></span>
+                  <span class="eyebrow">Madrid</span>
+                </span>
+              </div>
+
+              <h1 class="reveal mt-7 font-display text-[clamp(3rem,13vw,4.5rem)] font-medium leading-[0.91] tracking-[-0.07em] lg:text-[clamp(4.5rem,7.2vw,7.3rem)]" style="--delay: 60ms">
+                <span class="block">Tu factura<br class="sm:hidden" /> de luz,</span>
+                <span class="block text-outline-light">optimizada.</span>
+                <span class="mt-4 flex items-center gap-3 font-display text-[clamp(1.35rem,5vw,1.85rem)] font-medium leading-none tracking-[-0.04em] text-paper/90 sm:mt-5 lg:text-[clamp(1.6rem,2.25vw,2.15rem)]">
+                  <span class="h-px w-[0.85em] bg-lime" aria-hidden="true"></span>
+                  Sin coste para ti.
+                </span>
+              </h1>
+
+              <p class="reveal mt-7 max-w-[530px] text-[15px] leading-[1.7] text-paper/60 sm:text-base lg:mt-8" style="--delay: 120ms">
+                Asesoría energética independiente en Madrid. Comparamos +30 tarifas y
+                gestionamos tu cambio en 7 días. Habla con una persona, no con un call center.
+              </p>
+
+              <div class="reveal mt-8 flex flex-col gap-3 sm:flex-row sm:items-center lg:mt-9" style="--delay: 180ms">
+                <a href="#contacto" class="action action-lime w-full sm:w-auto">
+                  Subir factura y ahorrar
+                  <span class="circle-arrow border-ink/20">
+                    <svg class="h-4 w-4" aria-hidden="true"><use href="#i-arrow-down"></use></svg>
+                  </span>
+                </a>
+                <a
+                  href="https://wa.me/34610991989?text=Hola%20Javier%2C%20quiero%20analizar%20mi%20factura%20con%20Alesan."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="action action-ghost w-full sm:w-auto"
+                >
+                  <svg class="h-[18px] w-[18px]" aria-hidden="true"><use href="#i-whatsapp"></use></svg>
+                  WhatsApp directo
+                </a>
+              </div>
+
+              <div class="reveal mt-7 flex flex-wrap items-center gap-x-4 gap-y-3 text-[11px] text-paper/55 sm:mt-8" style="--delay: 240ms">
+                <span class="grid h-9 w-9 place-items-center rounded-full border border-lime/30 bg-lime/10 font-display text-xs font-semibold text-lime" aria-hidden="true">J</span>
+                <span><strong class="font-semibold text-paper/85">Javier</strong> analiza tu factura personalmente.</span>
+                <span class="hidden h-3 w-px bg-white/15 sm:block" aria-hidden="true"></span>
+                <span>Respuesta en &lt;24 h</span>
+              </div>
+            </div>
+
+            <!-- Ilustración editorial: la factura que se reduce -->
+            <div class="reveal-scale relative lg:col-span-5 xl:col-span-5" style="--delay: 180ms">
+              <div
+                class="hero-visual relative mx-auto h-[410px] w-full max-w-[470px] sm:h-[500px] lg:h-[565px]"
+                role="img"
+                aria-label="Ilustración de una factura de luz de 1.580 euros que pasa a 916 euros al mes, un 42 por ciento menos."
+              >
+                <!-- Órbitas y brillo -->
+                <div class="absolute left-1/2 top-1/2 h-[330px] w-[330px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/[0.08] sm:h-[420px] sm:w-[420px]" aria-hidden="true"></div>
+                <div class="absolute left-1/2 top-1/2 h-[260px] w-[260px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-dashed border-white/[0.07] sm:h-[340px] sm:w-[340px]" aria-hidden="true"></div>
+                <div class="absolute left-[58%] top-[44%] h-32 w-32 -translate-x-1/2 -translate-y-1/2 rounded-full bg-lime/20 blur-[60px]" aria-hidden="true"></div>
+
+                <!-- Factura antes -->
+                <div class="invoice-paper absolute left-0 top-[7%] z-10 w-[80%] max-w-[355px] -rotate-[4.5deg] rounded-[10px] p-4 text-ink sm:p-6">
+                  <div class="flex items-start justify-between border-b border-ink/15 pb-3 sm:pb-4">
+                    <div>
+                      <p class="font-display text-[10px] font-semibold tracking-[-0.035em]">
+                        ALESAN<span class="text-ink/50"> / AUDIT</span>
+                      </p>
+                      <p class="mt-1 text-[6px] font-semibold uppercase tracking-[0.18em] text-ink/55 sm:text-[7px]">
+                        Análisis energético
+                      </p>
+                    </div>
+                    <div class="text-right">
+                      <p class="text-[6px] font-semibold uppercase tracking-[0.16em] text-ink/55 sm:text-[7px]">Factura</p>
+                      <p class="mt-1 font-display text-[8px] font-semibold tracking-[-0.02em] sm:text-[9px]">02 / 2026</p>
+                    </div>
+                  </div>
+
+                  <div class="mt-4">
+                    <div class="flex items-center justify-between">
+                      <p class="text-[6px] font-semibold uppercase tracking-[0.18em] text-ink/55 sm:text-[7px]">Total a pagar</p>
+                      <span class="rounded-full bg-coral/15 px-2 py-1 text-[6px] font-semibold uppercase tracking-[0.12em] text-[#C84A40] sm:text-[7px]">Antes</span>
+                    </div>
+                    <p class="mt-1.5 font-display text-[clamp(1.9rem,5vw,2.7rem)] font-medium leading-none tracking-[-0.06em]">
+                      1.580<span class="text-[0.55em] text-ink/55">,00 €</span>
+                    </p>
+                  </div>
+
+                  <div class="mt-5 space-y-2.5 border-t border-dashed border-ink/15 pt-4 text-[7px] sm:text-[8px]">
+                    <div class="flex items-center justify-between">
+                      <span class="text-ink/60">Término de potencia</span>
+                      <span class="font-numeric font-medium">420,00 €</span>
+                    </div>
+                    <div class="flex items-center justify-between">
+                      <span class="text-ink/60">Término de energía</span>
+                      <span class="font-numeric font-medium">1.019,00 €</span>
+                    </div>
+                    <div class="flex items-center justify-between">
+                      <span class="text-ink/60">Impuestos y cargos</span>
+                      <span class="font-numeric font-medium">141,00 €</span>
+                    </div>
+                  </div>
+
+                  <div class="mt-4 flex items-center justify-between gap-4 border-t border-ink/15 pt-3">
+                    <div>
+                      <p class="text-[6px] uppercase tracking-[0.15em] text-ink/50">Consumo</p>
+                      <p class="mt-0.5 font-display text-[8px] font-medium">4.280 kWh</p>
+                    </div>
+                    <div class="barcode w-24 sm:w-28" aria-hidden="true"></div>
+                  </div>
+
+                  <div class="absolute bottom-3 right-3 grid h-8 w-8 place-items-center rounded-full bg-lime text-ink sm:bottom-4 sm:right-4 sm:h-9 sm:w-9" aria-hidden="true">
+                    <svg class="h-4 w-4" aria-hidden="true"><use href="#i-check"></use></svg>
+                  </div>
+                </div>
+
+                <!-- Sello de ahorro -->
+                <div class="absolute right-[1%] top-[1%] z-30 grid h-[74px] w-[74px] place-items-center rounded-full bg-lime text-ink shadow-lime sm:h-[88px] sm:w-[88px]" aria-hidden="true">
+                  <div class="text-center">
+                    <p class="font-display text-[1.55rem] font-semibold leading-none tracking-[-0.06em] sm:text-[1.9rem]">−42%</p>
+                    <p class="mt-1 text-[6px] font-semibold uppercase tracking-[0.13em] sm:text-[7px]">factura</p>
+                  </div>
+                </div>
+
+                <!-- Tarifa después -->
+                <div class="absolute bottom-[3%] right-0 z-20 w-[73%] max-w-[290px] rounded-[12px] border border-white/20 bg-[#1A1A1E]/95 p-4 text-paper shadow-float backdrop-blur-xl sm:p-5">
+                  <div class="flex items-center justify-between gap-3">
+                    <span class="inline-flex items-center gap-1.5 rounded-full border border-lime/25 bg-lime/10 px-2.5 py-1 text-[6px] font-semibold uppercase tracking-[0.15em] text-lime sm:text-[7px]">
+                      <span class="h-1 w-1 rounded-full bg-lime"></span>
+                      Nueva tarifa
+                    </span>
+                    <span class="text-[6px] font-semibold uppercase tracking-[0.13em] text-paper/45 sm:text-[7px]">Optimizada</span>
+                  </div>
+
+                  <div class="mt-4 flex items-end justify-between gap-3">
+                    <p class="font-display text-[clamp(2.1rem,6vw,3.15rem)] font-medium leading-none tracking-[-0.065em] text-lime">
+                      916 €<span class="ml-1 font-sans text-[9px] font-medium tracking-normal text-paper/55">/mes</span>
+                    </p>
+                    <span class="grid h-8 w-8 shrink-0 place-items-center rounded-full border border-lime/25 text-lime sm:h-9 sm:w-9" aria-hidden="true">
+                      <svg class="h-4 w-4" aria-hidden="true"><use href="#i-arrow-down"></use></svg>
+                    </span>
+                  </div>
+
+                  <div class="mt-4">
+                    <div class="h-1.5 overflow-hidden rounded-full bg-white/10">
+                      <div class="h-full w-[58%] rounded-full bg-lime"></div>
+                    </div>
+                    <div class="mt-2 flex items-center justify-between text-[6px] font-semibold uppercase tracking-[0.12em] sm:text-[7px]">
+                      <span class="text-paper/50">Antes 1.580 €</span>
+                      <span class="text-lime">−664 €/mes</span>
+                    </div>
+                  </div>
+                </div>
+
+                <span class="absolute bottom-[17%] left-[1%] z-20 hidden items-center gap-2 rounded-full border border-white/15 bg-ink/70 px-3 py-2 text-[7px] font-semibold uppercase tracking-[0.14em] text-paper/60 backdrop-blur sm:inline-flex">
+                  <span class="h-1.5 w-1.5 rounded-full bg-lime"></span>
+                  Sin cortes
+                </span>
+
+                <div class="absolute left-[46%] top-[51%] hidden h-2.5 w-2.5 -translate-x-1/2 -translate-y-1/2 items-center justify-center text-lime/60 sm:flex" aria-hidden="true">
+                  <span class="absolute h-px w-3 bg-current"></span>
+                  <span class="absolute h-3 w-px bg-current"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Microbarra de confianza -->
+        <div class="container-wide relative z-10">
+          <div class="grid border-t border-white/10 py-5 sm:grid-cols-3 sm:gap-8">
+            <div class="flex items-start gap-3 py-3 sm:py-0">
+              <svg class="mt-0.5 h-[18px] w-[18px] shrink-0 text-lime" aria-hidden="true"><use href="#i-user"></use></svg>
+              <div>
+                <p class="text-[10px] font-semibold uppercase tracking-[0.16em] text-paper/75">Trato directo</p>
+                <p class="mt-1 text-[11px] leading-relaxed text-paper/50">Javier, sin call centers.</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3 border-t border-white/10 py-3 sm:border-l sm:border-t-0 sm:py-0 sm:pl-8">
+              <svg class="mt-0.5 h-[18px] w-[18px] shrink-0 text-lime" aria-hidden="true"><use href="#i-shield"></use></svg>
+              <div>
+                <p class="text-[10px] font-semibold uppercase tracking-[0.16em] text-paper/75">Sin permanencia</p>
+                <p class="mt-1 text-[11px] leading-relaxed text-paper/50">Ni letra pequeña.</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3 border-t border-white/10 py-3 sm:border-l sm:border-t-0 sm:py-0 sm:pl-8">
+              <svg class="mt-0.5 h-[18px] w-[18px] shrink-0 text-lime" aria-hidden="true"><use href="#i-clock"></use></svg>
+              <div>
+                <p class="text-[10px] font-semibold uppercase tracking-[0.16em] text-paper/75">7 días de media</p>
+                <p class="mt-1 text-[11px] leading-relaxed text-paper/50">Sin cortes de suministro.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           02 · BENTO GRID DE CONFIANZA
+           =================================================================== -->
+      <section id="confianza" class="theme-paper relative overflow-hidden bg-paper py-20 text-ink sm:py-28 lg:py-36">
+        <div class="dot-field pointer-events-none absolute right-0 top-0 h-52 w-52 opacity-30 [mask-image:linear-gradient(to_bottom_left,black,transparent)]" aria-hidden="true"></div>
+
+        <div class="container-wide relative z-10">
+          <div class="grid gap-10 lg:grid-cols-12 lg:items-end lg:gap-8">
+            <div class="reveal lg:col-span-7">
+              <p class="section-label text-ink/55">01 / Confianza</p>
+              <h2 class="mt-6 max-w-[750px] text-balance font-display text-[clamp(2.55rem,6vw,5rem)] font-medium leading-[0.95] tracking-[-0.06em]">
+                La confianza no se pide.
+                <span class="text-ink/45">Se demuestra.</span>
+              </h2>
+            </div>
+            <div class="reveal lg:col-span-4 lg:col-start-9" style="--delay: 100ms">
+              <p class="max-w-sm text-sm leading-[1.75] text-ink/55 sm:text-[15px]">
+                Cero cuotas. Cero permanencia. Cero call centers. Solo números
+                concretos y una forma de trabajar que puedes comprobar.
+              </p>
+              <div class="mt-6 flex items-center gap-2 text-[10px] font-semibold uppercase tracking-[0.17em] text-ink/55">
+                <span class="h-1.5 w-1.5 rounded-full bg-ink"></span>
+                Datos actualizados · 2026
+              </div>
+            </div>
+          </div>
+
+          <!-- Bento: 4 cajas, una jerarquía clara -->
+          <div class="mt-12 grid grid-cols-1 gap-3 md:grid-cols-12 lg:mt-16">
+            <!-- Caja 1 · grande -->
+            <article class="bento-card-dark reveal flex min-h-[420px] flex-col justify-between p-6 sm:p-8 md:col-span-6 md:row-span-1 md:min-h-[420px] lg:row-span-2 lg:min-h-0" style="--delay: 80ms">
+              <div class="pointer-events-none absolute -right-16 -top-20 h-64 w-64 rounded-full border border-white/10" aria-hidden="true"></div>
+              <div class="pointer-events-none absolute -right-4 top-8 h-40 w-40 rounded-full border border-white/[0.06]" aria-hidden="true"></div>
+
+              <div class="relative z-10 flex items-start justify-between">
+                <span class="eyebrow text-paper/50">El modelo</span>
+                <span class="font-display text-[10px] font-medium tracking-[0.04em] text-paper/40">01 / 04</span>
+              </div>
+
+              <div class="relative z-10 mt-20">
+                <p class="font-display text-[clamp(7rem,15vw,11.5rem)] font-medium leading-[0.7] tracking-[-0.095em] text-lime">0€</p>
+                <h3 class="mt-7 font-display text-[clamp(2rem,3vw,2.7rem)] font-medium leading-[0.95] tracking-[-0.05em]">
+                  Coste para ti.<br />Siempre.
+                </h3>
+                <p class="mt-4 max-w-[300px] text-[13px] leading-[1.75] text-paper/50">
+                  Sin cuotas, sin permanencia y sin letra pequeña. El análisis y la
+                  gestión no te cuestan nada.
+                </p>
+              </div>
+
+              <div class="relative z-10 mt-10 flex items-center justify-between border-t border-white/10 pt-4">
+                <span class="eyebrow text-paper/45">Sin facturas sorpresa</span>
+                <span class="grid h-8 w-8 place-items-center rounded-full border border-lime/25 text-lime">
+                  <svg class="h-4 w-4" aria-hidden="true"><use href="#i-check"></use></svg>
+                </span>
+              </div>
+            </article>
+
+            <!-- Caja 2 · facturas analizadas -->
+            <article class="bento-card reveal flex min-h-[230px] flex-col justify-between bg-white/65 p-6 sm:p-8 md:col-span-6" style="--delay: 140ms">
+              <div class="flex items-start justify-between">
+                <span class="eyebrow text-ink/55">Facturas analizadas</span>
+                <svg class="h-5 w-5 text-ink/45" aria-hidden="true"><use href="#i-chart"></use></svg>
+              </div>
+
+              <div class="mt-8 flex items-end justify-between gap-4">
+                <p class="font-display text-[clamp(3.5rem,7.5vw,5.8rem)] font-medium leading-none tracking-[-0.075em]">+50.000</p>
+                <svg class="mb-2 h-10 w-[38%] max-w-[150px] overflow-visible" viewBox="0 0 150 40" fill="none" aria-hidden="true">
+                  <path d="M1 35C12 35 16 27 26 28C37 29 38 20 50 22C62 24 64 14 76 17C89 20 91 10 104 13C117 16 123 7 137 6L149 3" stroke="#111111" stroke-opacity=".25" stroke-width="1.5" stroke-linecap="round" />
+                  <circle cx="149" cy="3" r="3" fill="#CCFF00" stroke="#111111" stroke-width="1" />
+                </svg>
+              </div>
+
+              <p class="mt-3 text-[12px] leading-relaxed text-ink/60">Datos acumulados de nuestra actividad en Madrid.</p>
+            </article>
+
+            <!-- Caja 3 · tiempo de cambio -->
+            <article class="bento-card reveal flex min-h-[210px] flex-col justify-between bg-white/65 p-6 sm:p-7 md:col-span-6 lg:col-span-3" style="--delay: 200ms">
+              <div class="flex items-start justify-between">
+                <span class="eyebrow text-ink/55">Tiempo medio</span>
+                <svg class="h-[18px] w-[18px] text-ink/45" aria-hidden="true"><use href="#i-clock"></use></svg>
+              </div>
+              <div class="mt-8">
+                <p class="font-display text-[clamp(3rem,6vw,4.5rem)] font-medium leading-none tracking-[-0.075em]">
+                  7<span class="ml-2 font-sans text-[0.26em] font-semibold uppercase tracking-[0.08em] text-ink/60">días</span>
+                </p>
+                <p class="mt-2 text-[12px] leading-relaxed text-ink/60">Tiempo medio de cambio</p>
+              </div>
+              <div class="mt-6 flex gap-1" aria-hidden="true">
+                <span class="h-1 flex-1 rounded-full bg-ink"></span>
+                <span class="h-1 flex-1 rounded-full bg-ink"></span>
+                <span class="h-1 flex-1 rounded-full bg-ink"></span>
+                <span class="h-1 flex-1 rounded-full bg-ink"></span>
+                <span class="h-1 flex-1 rounded-full bg-ink"></span>
+                <span class="h-1 flex-1 rounded-full bg-ink"></span>
+                <span class="h-1 flex-1 rounded-full bg-lime"></span>
+              </div>
+            </article>
+
+            <!-- Caja 4 · comercializadoras -->
+            <article class="bento-card reveal flex min-h-[210px] flex-col justify-between overflow-hidden bg-white/65 p-6 sm:p-7 md:col-span-6 lg:col-span-3" style="--delay: 260ms">
+              <div class="flex items-start justify-between">
+                <span class="eyebrow text-ink/55">Comparativa</span>
+                <span class="h-1.5 w-1.5 rounded-full bg-lime" aria-hidden="true"></span>
+              </div>
+              <div class="relative mt-8">
+                <p class="font-display text-[clamp(3rem,6vw,4.5rem)] font-medium leading-none tracking-[-0.075em]">+30</p>
+                <p class="mt-2 text-[12px] leading-relaxed text-ink/60">Comercializadoras comparadas</p>
+                <div class="dot-field pointer-events-none absolute -bottom-8 -right-8 h-24 w-32 opacity-50 [mask-image:linear-gradient(to_top_left,black,transparent)]" aria-hidden="true"></div>
+              </div>
+            </article>
+          </div>
+
+          <div class="reveal mt-3 flex flex-col gap-3 rounded-card border border-ink/10 bg-white/40 px-5 py-4 sm:flex-row sm:items-center sm:justify-between" style="--delay: 320ms">
+            <p class="flex items-center gap-2.5 text-[10px] font-semibold uppercase tracking-[0.14em] text-ink/60">
+              <span class="h-1.5 w-1.5 rounded-full bg-ink"></span>
+              Sin permanencia · Sin letra pequeña · 100% gratuito
+            </p>
+            <p class="eyebrow text-ink/45">Asesoría independiente / Madrid</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           03 · CASO DE ÉXITO
+           =================================================================== -->
+      <section id="caso" class="relative overflow-hidden border-t border-white/10 bg-ink py-20 text-paper sm:py-28 lg:py-36">
+        <div class="pointer-events-none absolute -right-44 top-1/3 h-[560px] w-[560px] rounded-full border border-white/[0.06]" aria-hidden="true"></div>
+        <div class="pointer-events-none absolute -left-40 bottom-0 h-[420px] w-[420px] rounded-full border border-white/[0.06]" aria-hidden="true"></div>
+
+        <div class="container-wide relative z-10">
+          <div class="grid gap-10 lg:grid-cols-12 lg:items-end lg:gap-8">
+            <div class="reveal lg:col-span-8">
+              <p class="section-label text-paper/50">02 / Caso real</p>
+              <h2 class="mt-6 max-w-[900px] text-balance font-display text-[clamp(2.6rem,6vw,5.2rem)] font-medium leading-[0.94] tracking-[-0.065em]">
+                <span class="text-paper/50">Caso real:</span><br />
+                Restaurante en Móstoles.
+              </h2>
+            </div>
+            <div class="reveal lg:col-span-4" style="--delay: 100ms">
+              <p class="max-w-sm text-sm leading-[1.75] text-paper/55 sm:text-[15px]">
+                Misma cocina. Mismo equipo. Misma actividad. Una tarifa que por fin
+                encaja con el consumo real del negocio.
+              </p>
+              <div class="mt-6 flex items-center gap-3 text-[10px] font-semibold uppercase tracking-[0.17em] text-paper/50">
+                <span class="h-1.5 w-1.5 rounded-full bg-lime"></span>
+                Expediente 0142 · Hostelería
+              </div>
+            </div>
+          </div>
+
+          <!-- Dashboard before / after -->
+          <div class="reveal-scale mt-12 lg:mt-16" style="--delay: 120ms">
+            <div class="overflow-hidden rounded-card border border-white/15 bg-white/[0.035]" data-chart>
+              <!-- Barra superior de la tarjeta -->
+              <div class="flex flex-wrap items-center justify-between gap-4 border-b border-white/10 px-5 py-4 sm:px-7">
+                <div class="flex items-center gap-3">
+                  <div class="flex gap-1.5" aria-hidden="true">
+                    <span class="h-1.5 w-1.5 rounded-full bg-paper/20"></span>
+                    <span class="h-1.5 w-1.5 rounded-full bg-paper/20"></span>
+                    <span class="h-1.5 w-1.5 rounded-full bg-lime"></span>
+                  </div>
+                  <span class="font-display text-[9px] font-medium tracking-[0.02em] text-paper/50">alesan.audit / 0142</span>
+                </div>
+                <div class="flex items-center gap-3">
+                  <span class="text-[8px] font-semibold uppercase tracking-[0.16em] text-paper/40">Móstoles, Madrid</span>
+                  <span class="inline-flex items-center gap-1.5 rounded-full border border-lime/25 bg-lime/10 px-2.5 py-1 text-[7px] font-semibold uppercase tracking-[0.14em] text-lime">
+                    <span class="h-1 w-1 rounded-full bg-lime"></span>
+                    Optimizado
+                  </span>
+                </div>
+              </div>
+
+              <div class="grid lg:grid-cols-12">
+                <!-- Comparativa de factura -->
+                <div class="p-5 sm:p-8 lg:col-span-8 lg:p-10">
+                  <div class="flex flex-wrap items-center justify-between gap-3">
+                    <span class="eyebrow text-paper/50">Antes / después</span>
+                    <span class="text-[8px] font-semibold uppercase tracking-[0.17em] text-paper/40">Factura mensual · Electricidad</span>
+                  </div>
+
+                  <div class="mt-8 grid items-end gap-5 sm:grid-cols-[1fr_auto_1.25fr] sm:gap-6">
+                    <div>
+                      <p class="text-[9px] font-semibold uppercase tracking-[0.17em] text-paper/50">Antes</p>
+                      <p class="mt-2 font-display text-[clamp(1.9rem,4.5vw,3.25rem)] font-medium leading-none tracking-[-0.06em] text-paper/50 line-through decoration-coral/80 decoration-[2px]">
+                        1.580€<span class="ml-1 font-sans text-[0.28em] font-medium tracking-normal no-underline">/mes</span>
+                      </p>
+                    </div>
+
+                    <span class="mb-1 grid h-9 w-9 rotate-90 place-items-center justify-self-start rounded-full border border-white/15 text-paper/55 sm:rotate-0 sm:justify-self-center" aria-hidden="true">
+                      <svg class="h-4 w-4" aria-hidden="true"><use href="#i-arrow-right"></use></svg>
+                    </span>
+
+                    <div>
+                      <p class="text-[9px] font-semibold uppercase tracking-[0.17em] text-lime">Después</p>
+                      <p class="mt-2 font-display text-[clamp(3.2rem,7vw,5.5rem)] font-medium leading-[0.82] tracking-[-0.075em] text-lime">
+                        916€<span class="ml-1.5 font-sans text-[0.16em] font-medium tracking-normal text-paper/55">/mes</span>
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Barras comparativas -->
+                  <div class="mt-10 space-y-5">
+                    <div>
+                      <div class="flex items-center justify-between text-[9px] font-semibold uppercase tracking-[0.14em]">
+                        <span class="text-paper/50">Factura actual</span>
+                        <span class="font-numeric text-paper/55">1.580 €</span>
+                      </div>
+                      <div class="mt-2 h-1.5 overflow-hidden rounded-full bg-white/[0.06]">
+                        <div class="bar-fill h-full rounded-full bg-coral/65" style="--bar-width: 100%"></div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="flex items-center justify-between text-[9px] font-semibold uppercase tracking-[0.14em]">
+                        <span class="text-lime">Nueva tarifa</span>
+                        <span class="font-numeric text-lime">916 €</span>
+                      </div>
+                      <div class="mt-2 h-1.5 overflow-hidden rounded-full bg-white/[0.06]">
+                        <div class="bar-fill h-full rounded-full bg-lime" style="--bar-width: 58%"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="mt-8 flex flex-wrap items-center gap-2">
+                    <span class="inline-flex items-center gap-2 rounded-full bg-lime px-3 py-1.5 text-[8px] font-semibold uppercase tracking-[0.13em] text-ink">
+                      <span class="h-1.5 w-1.5 rounded-full bg-ink"></span>
+                      −42% factura
+                    </span>
+                    <span class="inline-flex items-center gap-2 rounded-full border border-white/20 px-3 py-1.5 text-[8px] font-semibold uppercase tracking-[0.13em] text-paper/60">
+                      Recuperación en &lt;5 meses
+                    </span>
+                  </div>
+
+                  <!-- Resumen anual: coherencia con 1.580 €/mes → 916 €/mes -->
+                  <dl class="mt-9 grid grid-cols-2 gap-x-6 gap-y-4 border-t border-white/10 pt-6 sm:grid-cols-3">
+                    <div>
+                      <dt class="text-[8px] font-semibold uppercase tracking-[0.14em] text-paper/55">Factura anual actual</dt>
+                      <dd class="mt-1.5 font-numeric font-display text-[15px] font-medium tracking-[-0.02em] text-paper/75">18.960 €</dd>
+                    </div>
+                    <div>
+                      <dt class="text-[8px] font-semibold uppercase tracking-[0.14em] text-paper/55">Factura anual optimizada</dt>
+                      <dd class="mt-1.5 font-numeric font-display text-[15px] font-medium tracking-[-0.02em] text-paper/75">10.992 €</dd>
+                    </div>
+                    <div class="col-span-2 sm:col-span-1">
+                      <dt class="text-[8px] font-semibold uppercase tracking-[0.14em] text-lime/70">Diferencia anual</dt>
+                      <dd class="mt-1.5 font-numeric font-display text-[15px] font-medium tracking-[-0.02em] text-lime">+7.968 €</dd>
+                    </div>
+                  </dl>
+                </div>
+
+                <!-- Panel de impacto -->
+                <div class="border-t border-white/10 p-5 sm:p-8 lg:col-span-4 lg:border-l lg:border-t-0 lg:p-10">
+                  <div class="flex items-center justify-between">
+                    <span class="eyebrow text-paper/50">Impacto</span>
+                    <span class="inline-flex items-center gap-1.5 text-[8px] font-semibold uppercase tracking-[0.13em] text-lime">
+                      <span class="h-1 w-1 rounded-full bg-lime"></span>
+                      Verificado
+                    </span>
+                  </div>
+
+                  <div class="relative mx-auto mt-8 aspect-square w-full max-w-[190px]">
+                    <div class="ring-meter absolute inset-0 rounded-full" style="--progress: 42%"></div>
+                    <div class="absolute inset-0 grid place-items-center">
+                      <div class="relative z-10 text-center">
+                        <p class="font-display text-[3.3rem] font-medium leading-none tracking-[-0.075em] text-lime">−42<span class="text-[0.45em]">%</span></p>
+                        <p class="mt-2 text-[8px] font-semibold uppercase tracking-[0.17em] text-paper/50">Menos factura</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <dl class="mt-8 divide-y divide-white/[0.08] border-t border-white/[0.08]">
+                    <div class="flex items-center justify-between py-3.5">
+                      <dt class="text-[10px] text-paper/50">Ahorro mensual</dt>
+                      <dd class="font-numeric font-display text-lg font-medium tracking-[-0.03em] text-lime">664 €</dd>
+                    </div>
+                    <div class="flex items-center justify-between py-3.5">
+                      <dt class="text-[10px] text-paper/50">Ahorro anual</dt>
+                      <dd class="font-numeric font-display text-lg font-medium tracking-[-0.03em]">7.968 €</dd>
+                    </div>
+                    <div class="flex items-center justify-between py-3.5">
+                      <dt class="text-[10px] text-paper/50">Gestión</dt>
+                      <dd class="font-display text-sm font-medium tracking-[-0.02em]">7 días</dd>
+                    </div>
+                    <div class="flex items-center justify-between py-3.5">
+                      <dt class="text-[10px] text-paper/50">Coste para el cliente</dt>
+                      <dd class="font-display text-lg font-medium tracking-[-0.03em] text-lime">0 €</dd>
+                    </div>
+                  </dl>
+                </div>
+              </div>
+
+              <div class="flex flex-col gap-3 border-t border-white/10 px-5 py-4 text-[8px] font-semibold uppercase tracking-[0.14em] text-paper/45 sm:flex-row sm:items-center sm:justify-between sm:px-7">
+                <span class="flex items-center gap-2">
+                  <svg class="h-3.5 w-3.5 text-lime" aria-hidden="true"><use href="#i-check"></use></svg>
+                  Mismo local. Mismos equipos. Misma actividad.
+                </span>
+                <span>Solo cambió la tarifa</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           04 · CÓMO FUNCIONA
+           =================================================================== -->
+      <section id="proceso" class="theme-paper relative overflow-hidden bg-paper py-20 text-ink sm:py-28 lg:py-36">
+        <div class="pointer-events-none absolute left-0 top-0 h-64 w-64 opacity-25 dot-field [mask-image:linear-gradient(to_bottom_right,black,transparent)]" aria-hidden="true"></div>
+
+        <div class="container-wide relative z-10">
+          <div class="grid gap-10 lg:grid-cols-12 lg:items-end lg:gap-8">
+            <div class="reveal lg:col-span-7">
+              <p class="section-label text-ink/55">03 / Cómo funciona</p>
+              <h2 class="mt-6 text-balance font-display text-[clamp(2.55rem,6vw,5rem)] font-medium leading-[0.95] tracking-[-0.06em]">
+                De la factura al ahorro.
+                <span class="block text-ink/60">En cuatro pasos.</span>
+              </h2>
+            </div>
+
+            <div class="reveal lg:col-span-4 lg:col-start-9" style="--delay: 100ms">
+              <p class="max-w-sm text-sm leading-[1.75] text-ink/55 sm:text-[15px]">
+                Sin llamadas interminables ni formularios eternos. Un proceso claro,
+                con una persona concreta al otro lado.
+              </p>
+
+              <div class="mt-7 flex items-center gap-3 border-t border-ink/15 pt-5">
+                <span class="grid h-10 w-10 place-items-center rounded-full bg-ink font-display text-sm font-medium text-lime" aria-hidden="true">J</span>
+                <div>
+                  <p class="text-[12px] font-semibold">Javier · tu asesor</p>
+                  <p class="mt-0.5 text-[11px] text-ink/60">Analiza cada factura personalmente.</p>
+                </div>
+                <a
+                  href="https://wa.me/34610991989?text=Hola%20Javier%2C%20quiero%20analizar%20mi%20factura%20con%20Alesan."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="ml-auto grid h-11 w-11 place-items-center rounded-full border border-ink/20 text-ink transition hover:bg-ink hover:text-lime"
+                  aria-label="Hablar con Javier por WhatsApp"
+                >
+                  <svg class="h-4 w-4" aria-hidden="true"><use href="#i-whatsapp"></use></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="reveal mt-14 flex items-center justify-between border-t border-ink/15 pt-4 lg:mt-20" style="--delay: 140ms">
+            <span class="eyebrow text-ink/55">Proceso / 04 pasos</span>
+            <span class="eyebrow text-ink/55">≈ 7 días en total</span>
+          </div>
+
+          <!-- Timeline horizontal en desktop, vertical en móvil -->
+          <ol class="relative mt-0 grid gap-0 lg:grid-cols-4">
+            <li class="group relative ml-1.5 border-l border-ink/15 pb-10 pl-7 pt-8 lg:ml-0 lg:border-l lg:border-t-0 lg:px-7 lg:pb-0 lg:pl-7 lg:pt-10 lg:first:border-l-0 lg:first:pl-0">
+              <span class="absolute -left-[5px] top-11 h-2.5 w-2.5 rounded-full border-2 border-paper bg-ink lg:left-7 lg:top-0 lg:-translate-x-1/2 lg:-translate-y-1/2 lg:first:left-0" aria-hidden="true"></span>
+              <div class="flex items-start justify-between">
+                <span class="step-number font-display text-[4.4rem] font-medium leading-[0.75] tracking-[-0.075em] text-outline-dark lg:text-[5rem]">01</span>
+                <span class="grid h-9 w-9 place-items-center rounded-full border border-ink/15 text-ink/60 transition duration-300 group-hover:border-ink group-hover:text-ink">
+                  <svg class="h-[18px] w-[18px]" aria-hidden="true"><use href="#i-upload"></use></svg>
+                </span>
+              </div>
+              <div class="mt-8">
+                <p class="eyebrow text-ink/50">Hoy</p>
+                <h3 class="mt-3 font-display text-[1.45rem] font-medium leading-[1.05] tracking-[-0.045em] sm:text-[1.6rem]">Nos envías tu factura</h3>
+                <p class="mt-3 max-w-[260px] text-[12px] leading-[1.7] text-ink/60 sm:text-[13px]">
+                  Una foto por WhatsApp o el formulario. Tardas menos de un minuto.
+                </p>
+              </div>
+            </li>
+
+            <li class="group relative ml-1.5 border-l border-ink/15 pb-10 pl-7 pt-8 lg:ml-0 lg:border-l lg:border-ink/15 lg:px-7 lg:pb-0 lg:pl-7 lg:pt-10">
+              <span class="absolute -left-[5px] top-11 h-2.5 w-2.5 rounded-full border-2 border-paper bg-ink lg:left-0 lg:top-0 lg:-translate-x-1/2 lg:-translate-y-1/2" aria-hidden="true"></span>
+              <div class="flex items-start justify-between">
+                <span class="step-number font-display text-[4.4rem] font-medium leading-[0.75] tracking-[-0.075em] text-outline-dark lg:text-[5rem]">02</span>
+                <span class="grid h-9 w-9 place-items-center rounded-full border border-ink/15 text-ink/60 transition duration-300 group-hover:border-ink group-hover:text-ink">
+                  <svg class="h-[18px] w-[18px]" aria-hidden="true"><use href="#i-scan"></use></svg>
+                </span>
+              </div>
+              <div class="mt-8">
+                <p class="eyebrow text-ink/50">1–2 días</p>
+                <h3 class="mt-3 font-display text-[1.45rem] font-medium leading-[1.05] tracking-[-0.045em] sm:text-[1.6rem]">Javier la analiza</h3>
+                <p class="mt-3 max-w-[260px] text-[12px] leading-[1.7] text-ink/60 sm:text-[13px]">
+                  Comparativa real entre más de 30 comercializadoras. Sin filtros ni intereses.
+                </p>
+              </div>
+            </li>
+
+            <li class="group relative ml-1.5 border-l border-ink/15 pb-10 pl-7 pt-8 lg:ml-0 lg:border-l lg:border-ink/15 lg:px-7 lg:pb-0 lg:pl-7 lg:pt-10">
+              <span class="absolute -left-[5px] top-11 h-2.5 w-2.5 rounded-full border-2 border-paper bg-ink lg:left-0 lg:top-0 lg:-translate-x-1/2 lg:-translate-y-1/2" aria-hidden="true"></span>
+              <div class="flex items-start justify-between">
+                <span class="step-number font-display text-[4.4rem] font-medium leading-[0.75] tracking-[-0.075em] text-outline-dark lg:text-[5rem]">03</span>
+                <span class="grid h-9 w-9 place-items-center rounded-full border border-ink/15 text-ink/60 transition duration-300 group-hover:border-ink group-hover:text-ink">
+                  <svg class="h-[18px] w-[18px]" aria-hidden="true"><use href="#i-file-check"></use></svg>
+                </span>
+              </div>
+              <div class="mt-8">
+                <p class="eyebrow text-ink/50">48 h</p>
+                <h3 class="mt-3 font-display text-[1.45rem] font-medium leading-[1.05] tracking-[-0.045em] sm:text-[1.6rem]">Recibes el plan</h3>
+                <p class="mt-3 max-w-[260px] text-[12px] leading-[1.7] text-ink/60 sm:text-[13px]">
+                  Tu tarifa recomendada, el ahorro y lo que implica. Sin compromiso.
+                </p>
+              </div>
+            </li>
+
+            <li class="group relative ml-1.5 border-l border-ink/15 pb-0 pl-7 pt-8 lg:ml-0 lg:border-l lg:border-ink/15 lg:px-7 lg:pb-0 lg:pl-7 lg:pt-10">
+              <span class="absolute -left-[5px] top-11 h-2.5 w-2.5 rounded-full border-2 border-paper bg-lime lg:left-0 lg:top-0 lg:-translate-x-1/2 lg:-translate-y-1/2" aria-hidden="true"></span>
+              <div class="flex items-start justify-between">
+                <span class="step-number font-display text-[4.4rem] font-medium leading-[0.75] tracking-[-0.075em] text-outline-dark lg:text-[5rem]">04</span>
+                <span class="grid h-9 w-9 place-items-center rounded-full border border-ink/15 text-ink/60 transition duration-300 group-hover:border-ink group-hover:text-ink">
+                  <svg class="h-[18px] w-[18px]" aria-hidden="true"><use href="#i-refresh"></use></svg>
+                </span>
+              </div>
+              <div class="mt-8">
+                <p class="eyebrow text-ink/50">7 días</p>
+                <h3 class="mt-3 font-display text-[1.45rem] font-medium leading-[1.05] tracking-[-0.045em] sm:text-[1.6rem]">Tramitamos el cambio</h3>
+                <p class="mt-3 max-w-[260px] text-[12px] leading-[1.7] text-ink/60 sm:text-[13px]">
+                  Nos ocupamos del papeleo y del cambio. Sin cortes ni interrupciones.
+                </p>
+              </div>
+            </li>
+          </ol>
+
+          <div class="reveal mt-12 flex flex-col gap-4 border-t border-ink/15 pt-6 sm:flex-row sm:items-center sm:justify-between" style="--delay: 160ms">
+            <p class="flex items-center gap-2.5 text-[11px] text-ink/60">
+              <span class="h-1.5 w-1.5 rounded-full bg-ink"></span>
+              Si no hay ahorro, te lo decimos. Sin rodeos.
+            </p>
+            <a href="#contacto" class="group inline-flex min-h-11 items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.15em] text-ink">
+              Empezar ahora
+              <span class="circle-arrow border-ink/20">
+                <svg class="h-3.5 w-3.5" aria-hidden="true"><use href="#i-arrow-up-right"></use></svg>
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           05 · CTA FINAL
+           =================================================================== -->
+      <section id="contacto" class="relative overflow-hidden border-t border-white/10 bg-ink py-20 text-paper sm:py-28 lg:py-36">
+        <div class="hero-glow pointer-events-none absolute -bottom-40 -right-24 h-[560px] w-[560px] rounded-full opacity-70 sm:h-[760px] sm:w-[760px]" aria-hidden="true"></div>
+        <div class="pointer-events-none absolute -left-52 top-1/2 h-[480px] w-[480px] -translate-y-1/2 rounded-full border border-white/[0.06]" aria-hidden="true"></div>
+
+        <div class="container-wide relative z-10">
+          <div class="grid gap-12 lg:grid-cols-12 lg:items-end lg:gap-8">
+            <div class="reveal lg:col-span-7">
+              <p class="section-label text-paper/50">04 / Siguiente paso</p>
+              <h2 class="mt-6 text-balance font-display text-[clamp(3rem,7.2vw,7rem)] font-medium leading-[0.9] tracking-[-0.07em]">
+                ¿Empezamos<br />
+                por la <span class="text-lime">factura?</span>
+              </h2>
+              <p class="mt-8 max-w-[430px] text-sm leading-[1.75] text-paper/55 sm:text-[15px]">
+                Mándale una foto de tu última factura a Javier. Te dirá si hay margen
+                real de ahorro, sin compromiso y sin marearte con tecnicismos.
+              </p>
+            </div>
+
+            <div class="reveal lg:col-span-5" style="--delay: 100ms">
+              <a
+                href="https://wa.me/34610991989?text=Hola%20Javier%2C%20quiero%20empezar%20por%20la%20factura.%20%C2%BFMe%20ayudas%3F"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="group block overflow-hidden rounded-card bg-lime p-5 text-ink transition duration-300 ease-smooth hover:-translate-y-1 hover:shadow-[0_24px_70px_rgba(204,255,0,0.16)] sm:p-7"
+              >
+                <div class="flex items-center justify-between">
+                  <span class="eyebrow">WhatsApp directo</span>
+                  <span class="grid h-11 w-11 place-items-center rounded-full bg-ink text-lime transition-transform duration-300 group-hover:rotate-6">
+                    <svg class="h-5 w-5" aria-hidden="true"><use href="#i-whatsapp"></use></svg>
+                  </span>
+                </div>
+
+                <div class="mt-16">
+                  <p class="text-[9px] font-semibold uppercase tracking-[0.18em] text-ink/60">Habla con Javier</p>
+                  <p class="mt-2 font-display text-[clamp(2rem,4.8vw,2.8rem)] font-semibold leading-none tracking-[-0.055em]">
+                    610 99 19 89
+                  </p>
+                </div>
+
+                <div class="mt-7 flex items-center justify-between border-t border-ink/20 pt-4">
+                  <span class="text-[9px] font-semibold uppercase tracking-[0.16em] text-ink/60">Abrir conversación</span>
+                  <svg class="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" aria-hidden="true"><use href="#i-arrow-up-right"></use></svg>
+                </div>
+              </a>
+
+              <p class="mt-4 flex flex-wrap items-center gap-x-2 gap-y-1 text-[9px] font-semibold uppercase tracking-[0.14em] text-paper/50">
+                <span>Sin permanencia</span>
+                <span class="h-1 w-1 rounded-full bg-paper/20" aria-hidden="true"></span>
+                <span>Sin letra pequeña</span>
+                <span class="h-1 w-1 rounded-full bg-paper/20" aria-hidden="true"></span>
+                <span>100% gratuito</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- =====================================================================
+         FOOTER
+         ===================================================================== -->
+    <footer id="footer" class="relative overflow-hidden border-t border-white/10 bg-ink text-paper">
+      <div class="container-wide">
+        <div class="grid gap-10 py-14 sm:py-16 lg:grid-cols-12 lg:gap-8">
+          <div class="lg:col-span-5">
+            <a href="#inicio" class="inline-flex min-h-11 items-center gap-3" aria-label="Alesan Soluciones, volver al inicio">
+              <span class="grid h-8 w-8 place-items-center rounded-[4px] bg-lime text-ink">
+                <svg class="h-[18px] w-[18px]" aria-hidden="true"><use href="#i-bolt"></use></svg>
+              </span>
+              <span class="font-display text-[20px] font-semibold tracking-[-0.045em]">ALESAN<span class="text-lime">.</span></span>
+            </a>
+            <p class="mt-5 max-w-[300px] text-[13px] leading-[1.7] text-paper/50">
+              Asesoría energética independiente con base en Madrid. Menos letra
+              pequeña, más ahorro real.
+            </p>
+            <div class="mt-6 inline-flex items-center gap-2 rounded-full border border-white/10 px-3 py-1.5 text-[8px] font-semibold uppercase tracking-[0.16em] text-paper/50">
+              <span class="h-1 w-1 rounded-full bg-lime"></span>
+              Madrid / España
+            </div>
+          </div>
+
+          <nav class="lg:col-span-2 lg:col-start-7" aria-label="Navegación del pie de página">
+            <p class="eyebrow text-paper/40">Navegación</p>
+            <ul class="mt-3 space-y-1 text-[12px] text-paper/55">
+              <li><a href="#confianza" class="inline-flex min-h-11 items-center transition hover:text-lime">Confianza</a></li>
+              <li><a href="#caso" class="inline-flex min-h-11 items-center transition hover:text-lime">Caso real</a></li>
+              <li><a href="#proceso" class="inline-flex min-h-11 items-center transition hover:text-lime">Cómo funciona</a></li>
+              <li><a href="#contacto" class="inline-flex min-h-11 items-center transition hover:text-lime">Contacto</a></li>
+            </ul>
+          </nav>
+
+          <div class="lg:col-span-2">
+            <p class="eyebrow text-paper/40">Contacto</p>
+            <ul class="mt-3 space-y-1 text-[12px] text-paper/55">
+              <li>
+                <a href="https://wa.me/34610991989" target="_blank" rel="noopener noreferrer" class="inline-flex min-h-11 items-center gap-2 transition hover:text-lime">
+                  <svg class="h-3.5 w-3.5" aria-hidden="true"><use href="#i-whatsapp"></use></svg>
+                  610 99 19 89
+                </a>
+              </li>
+              <li>
+                <a href="tel:+34610991989" class="inline-flex min-h-11 items-center gap-2 transition hover:text-lime">
+                  <svg class="h-3.5 w-3.5" aria-hidden="true"><use href="#i-phone"></use></svg>
+                  Llamar
+                </a>
+              </li>
+              <li class="py-2 text-paper/50">Atención directa, sin call center.</li>
+            </ul>
+          </div>
+
+          <div class="lg:col-span-2">
+            <p class="eyebrow text-paper/40">Legal</p>
+            <ul class="mt-3 space-y-1 text-[12px] text-paper/55">
+              <!-- TODO: sustituir por las páginas legales definitivas antes de publicar. -->
+              <li><a href="#" class="inline-flex min-h-11 items-center transition hover:text-lime">Aviso legal</a></li>
+              <li><a href="#" class="inline-flex min-h-11 items-center transition hover:text-lime">Privacidad</a></li>
+              <li><a href="#" class="inline-flex min-h-11 items-center transition hover:text-lime">Cookies</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-3 border-t border-white/10 py-6 text-[9px] font-semibold uppercase tracking-[0.14em] text-paper/40 sm:flex-row sm:items-center sm:justify-between">
+          <p>© <span data-year>2026</span> Alesan Soluciones</p>
+          <p class="hidden sm:block">Diseño con criterio. Sin plantillas.</p>
+          <a href="#inicio" class="group inline-flex min-h-11 items-center gap-2 transition hover:text-paper">
+            Volver arriba
+            <svg class="h-3 w-3 transition-transform duration-300 group-hover:-translate-y-0.5" aria-hidden="true"><use href="#i-arrow-up-right"></use></svg>
+          </a>
+        </div>
+
+        <div class="relative pb-10 pt-3 sm:pb-12" aria-hidden="true">
+          <p class="footer-wordmark whitespace-nowrap text-center font-display font-semibold text-white/[0.065]">ALESAN</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./assets/main.js" defer></script>
+  </body>
+</html>
